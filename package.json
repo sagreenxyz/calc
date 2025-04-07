@@ -2,9 +2,9 @@
   "name": "calc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/calc",
+  "homepage": "https://sagreenxyz.github.io/calc",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

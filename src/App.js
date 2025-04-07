@@ -26,7 +26,7 @@ function App() {
       <div className="calculator">
         <input type="text" value={input} readOnly />
         <div className="buttons">
-          {["1", "2", "3", "+", "4", "5", "6", "-", "7", "8", "9", "*", "0", ".", "/", "="].map((btn) => (
+          {["7", "8", "9", "+", "4", "5", "6", "-", "1", "2", "3", "*", "0", ".", "/", "="].map((btn) => (
             <button
               key={btn}
               onClick={() => (btn === "=" ? calculate() : handleClick(btn))}
